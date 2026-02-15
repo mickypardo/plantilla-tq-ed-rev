@@ -1,0 +1,40 @@
+{
+  "title": "Plantilla TQ Ed. Rev.",
+  "id": "plantilla-tq-ed-rev",
+  "system": "sandbox",
+  "joinTheme": "default",
+  "coreVersion": "11.315",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "systemVersion": "0.14.4.4",
+  "lastPlayed": "Sun Feb 15 2026 01:17:21 GMT+0100 (hora estándar de Europa central)",
+  "playtime": 2914409,
+  "packs": [
+    {
+      "label": "Compendio de Criaturas",
+      "type": "Actor",
+      "name": "compendio-de-criaturas",
+      "path": "packs/compendio-de-criaturas",
+      "system": "sandbox",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "label": "Religion",
+      "type": "JournalEntry",
+      "name": "religion",
+      "path": "packs/religion",
+      "system": "sandbox",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    }
+  ]
+}

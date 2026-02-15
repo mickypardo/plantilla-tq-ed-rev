@@ -1,0 +1,857 @@
+/* Font Families Initialization! Add more here before you use */
+/* Copy the entire paragraph and paste it below, then change the name and the url */
+/* Finally, use the name in font-family in the rest of the style page */
+
+@font-face {
+	font-family: MinionPro;
+	src: url(fonts/MinionPro-Medium.otf);
+}
+
+@font-face {
+	font-family: ITCSymbolStd-Black;
+	src: url(fonts/itcsymbolstd-black.otf);
+}
+
+@font-face {
+	font-family: ITCSymbolStd-Bold;
+	src: url(fonts/itcsymbolstd-bold.otf);
+}
+
+@font-face {
+	font-family: ITCSymbolStd-Medium;
+	src: url(fonts/itcsymbolstd-medium.otf);
+}
+
+@font-face {
+	font-family: Montserrat-Bold;
+	src: url(fonts/Montserrat-Bold.ttf);
+}
+
+@font-face {
+	font-family: Montserrat-Medium;
+	src: url(fonts/Montserrat-Medium.ttf);
+}
+
+@font-face {
+	font-family: Palatino;
+	src: url(fonts/Palatino.ttc);
+}
+
+/* ------------------------------ */
+
+/* ------!!!! ------- */
+/* ---------- DO NOT REMOVE THE ; SEMI COLON PUNTO Y COMA  AT THE END OF EVERY LINE !!! ---- */
+/* ------!!!! ------- */
+
+/* Character sheet background and Font Color */
+.sandbox.sheet .window-content {
+	color: #000000; /* Change color code, include the hash tag! */
+	/* Replace LINK_TO_IMAGE from the web to an image you like for a background or place it in img folder */
+	/* Image should be sized on about 720p and not be too heavy */
+	background: url(img/fondo.jpg) no-repeat; /* Replace no-repeat with repeat for pattern images */
+	overflow-y: auto; /* change between hidden and auto to show vertical scroll bar in sheets. Good for long sheets */
+}
+
+/* Font control of general text in Foundry in general */
+body {
+	font-family:
+		ITCSymbolStd-Medium, sans-serif; /* Dont remove the colon at the end!!! */
+	font-size: 13px; /* change only the number! */
+}
+
+/* Change shadow colors and Foundry general font color!! */
+.app {
+	box-shadow: 0 0 20px #7e4444; /* Change the color code here for a nice shadow color! */
+	color: #dfdfdf; /* Text color for window titles and menu all across Foundry */
+}
+
+/* INSERCIÓN DE IMÁGENES */
+
+/* Character sheet Logo TQ transparente */
+.sandbox.sheet [class="flexblock-left charsetup"] {
+	background: url(img/Logo_TQ_transparente.png) no-repeat left;
+	background-size: contain;
+}
+
+/* Customize the chat roll area! */
+#chat-form textarea {
+	background: url(img/fondo.jpg) repeat; /* Replace with some url with image or url in img folder */
+	font-family: ITCSymbolStd-Medium; /* Text font in dice */
+	font-size: 12px; /* Text size in dice dialog */
+	color: black; /* Text color in dice dialog */
+}
+
+/* Customize the chat history area! */
+#chat-log .message {
+	background: url(img/fondo.jpg) repeat; /* Replace with some url with image or url in img folder */
+	font-family: ITCSymbolStd-Medium; /* Text font in chat-log */
+	font-size: 12px; /* Text size in chat-log */
+	color: #191813; /* Text color in chat-log */
+}
+
+/* BORDES Y MARGENES EN LA HOJA DE PERSONAJE */
+
+/* Character sheet borders */
+.sandbox.sheet.actor .window-content {
+	margin: 20px;
+	box-shadow:
+		0 0 0 14px #006e91,
+		0 0 0 16px #fcefc8,
+		0 0 0 22px #006e91;
+	overflow-y: auto;
+}
+
+/* Character Name Title margin style */
+.sandbox.sheet.actor [class="charname"] {
+	border: 3px solid #006e91;
+	border-radius: 5px 5px 5px 5px;
+}
+
+/* "Destino" border style */
+.sandbox.sheet.actor [class="multi-1-3 panel_destino_container"] {
+	border-width: 5px 5px 0px 5px;
+	border-style: solid;
+	border-color: #006e91;
+	border-radius: 0px 0px 20px 20px;
+}
+
+/* "Puntos gastados (Destino)" border style */
+.sandbox.sheet.actor [class="multi-1-3 panel_destino_tg_container"] {
+	border-width: 0px 5px 5px 5px;
+	border-style: solid;
+	border-color: #006e91;
+	border-radius: 20px 20px 10px 10px;
+}
+
+/* "Puntos de Vida" border style */
+.sandbox.sheet.actor [class="multi-1-3 panel_pv_container"] {
+	border-width: 5px 5px 0px 5px;
+	border-style: solid;
+	border-color: #006e91;
+	border-radius: 0px 0px 0px 0px;
+}
+
+/* "Heridas" border style */
+.sandbox.sheet.actor [class="multi-3-10 panel_heridas_container"] {
+	border-width: 0px 5px 5px 5px;
+	border-style: solid;
+	border-color: #006e91;
+	border-radius: 0px 0px 10px 10px;
+}
+
+/* "Fortuna" border style */
+.sandbox.sheet.actor [class="multi-3-10 panel_fortuna_container"] {
+	border: 5px solid #006e91;
+	border-radius: 5px 5px 0px 0px;
+}
+
+/* "Lealtades" border style */
+.sandbox.sheet.actor
+[class="multi-1-2 panel_lealtades_container isimg centertext"] {
+	border-width: 5px 5px 0px 5px;
+	border-style: solid;
+	border-color: #006e91;
+	border-radius: 0px 0px 0px 0px;
+}
+
+/* "Lealtad" border style */
+.sandbox.sheet.actor [class="multi-1-2 panel_lealtad_container"] {
+	border-width: 0px 5px 0px 5px;
+	border-style: solid;
+	border-color: #006e91;
+	border-radius: 0px 0px 0px 0px;
+}
+
+/* "Actitud Lealtad" border style */
+.sandbox.sheet.actor [class="multi-1-2 panel_lealtad_act_container"] {
+	border-width: 0px 5px 0px 5px;
+	border-style: solid;
+	border-color: #006e91;
+	border-radius: 0px 0px 15px 15px;
+}
+
+/* "Pactos" border style */
+.sandbox.sheet.actor [class="multi-1-2 panel_pactos1_container"] {
+	border-width: 0px 5px 0px 5px;
+	border-style: solid;
+	border-color: #006e91;
+	border-radius: 15px 15px 0px 0px;
+}
+
+/* "Textos Pactos" border style */
+.sandbox.sheet.actor [class="multi-1-2 panel_pactos2_container"] {
+	border-width: 0px 5px 0px 5px;
+	border-style: solid;
+	border-color: #006e91;
+	border-radius: 0px 0px 0px 0px;
+}
+
+/* "Bendiciones" border style */
+.sandbox.sheet.actor [class="multi-1-2 panel_bendicion1_container"] {
+	border-width: 0px 5px 0px 5px;
+	border-style: solid;
+	border-color: #006e91;
+	border-radius: 0px 0px 0px 0px;
+}
+
+/* "Textos Bendiciones" border style */
+.sandbox.sheet.actor [class="multi-1-2 panel_bendicion2_container"] {
+	border-width: 0px 5px 5px 5px;
+	border-style: solid;
+	border-color: #006e91;
+	border-radius: 0px 0px 10px 10px;
+}
+
+/* "Puntos de Magia" border style */
+.sandbox.sheet.actor [class="multi-1-2 panel_puntos_magia_container"] {
+	border: 5px solid #006e91;
+	border-radius: 0px 0px 30px 30px;
+}
+
+/* ESTILOS DE LETRA EN TEXTOS */
+
+/* Tabs in sheets! */
+.sandbox.sheet .tabs .item {
+	font-family: ITCSymbolStd-Bold, sans-serif;
+	font-weight: bold;
+}
+
+/* Character and Item Name Titles Text style! */
+.sandbox.sheet .charname input {
+	color: #191813;
+	font-family: ITCSymbolStd-Black, sans-serif;
+	font-size: 28px;
+	font-style: bold;
+}
+
+/* Character Bio Text style! */
+.sandbox.sheet [class="editor-content"] {
+	color: #191813;
+	font-family: ITCSymbolStd-Medium, sans-serif;
+	font-size: 12px;
+}
+
+/* Character Bio Text input style! */
+.sandbox.sheet [class="editor-content"] input {
+	color: #191813;
+	font-family: ITCSymbolStd-Medium, sans-serif;
+	font-size: 12px;
+}
+
+/* ESTILOS EN PANELES */
+
+/* Font and color control for Panel Headers */
+.sandbox.sheet .panelheader {
+	font-family: ITCSymbolStd-Black, sans-serif;
+	font-size: 14px; /* change only the number! */
+	background-color: #006e91; /* Background color for panel header */
+}
+
+/* Font and color control for Panel Headers without cell*/
+.sandbox.sheet .panelheader-t {
+	font-family: ITCSymbolStd-Black, sans-serif;
+	font-size: 14px; /* change only the number! */
+}
+
+/* Character sheet table header colors */
+.sandbox.sheet thead {
+	background-color: #006e91;
+}
+
+/* ESTILOS DE LETRA Y FONDO EN BLOQUES Y CASILLAS */
+
+/* Character sheet select-sheet background color fields */
+.sandbox.sheet [class="selectsheet"] {
+	font-family: ITCSymbolStd-Medium, sans-serif;
+	font-size: 11px;
+	background-color: #fcefc8; /* Color de fondo en casillas de texto */
+}
+
+/* Character sheet input text background color fields */
+.sandbox.sheet [class^="flexblock-"] input {
+	font-family: ITCSymbolStd-Medium, sans-serif;
+	font-size: 11px;
+	/*  background-color: #FCEFC8; /* Color de fondo en casillas de texto */
+}
+
+/* Character sheet input number background color fields */
+.sandbox.sheet [class^="input-min"] {
+	font-family: ITCSymbolStd-Medium, sans-serif;
+	font-size: 11px;
+	background-color: #fcefc8; /* Color de fondo en casillas de texto */
+}
+
+/* Character sheet "Cuerpo" background color fields */
+.sandbox.sheet .input-med.cue {
+	font-family: ITCSymbolStd-Medium, sans-serif;
+	font-size: 11px;
+	background-color: #fcefc8; /* Color de fondo en casillas de texto */
+}
+
+/* Character sheet "Mente" background color fields */
+.sandbox.sheet .input-med.men {
+	font-family: ITCSymbolStd-Medium, sans-serif;
+	font-size: 11px;
+	background-color: #fcefc8; /* Color de fondo en casillas de texto */
+}
+
+/* Character sheet "Espíritu" background color fields */
+.sandbox.sheet .input-med.esp {
+	font-family: ITCSymbolStd-Medium, sans-serif;
+	font-size: 11px;
+	background-color: #fcefc8; /* Color de fondo en casillas de texto */
+}
+
+/* Character sheet "Atractivo" background color fields */
+.sandbox.sheet .input-med.atr {
+	font-family: ITCSymbolStd-Medium, sans-serif;
+	font-size: 11px;
+	background-color: #fcefc8; /* Color de fondo en casillas de texto */
+}
+
+/* Character sheet "Tamaño" background color fields */
+.sandbox.sheet .input-med.tam {
+	font-family: ITCSymbolStd-Medium, sans-serif;
+	font-size: 11px;
+	background-color: #fcefc8; /* Color de fondo en casillas de texto */
+}
+
+/* Character sheet "Daño" background color fields */
+.sandbox.sheet .input-min.dmg1 {
+	font-family: ITCSymbolStd-Medium, sans-serif;
+	font-size: 11px;
+	background-color: #fcefc8; /* Color de fondo en casillas de texto */
+}
+
+/* Character sheet "Daño" background color fields */
+.sandbox.sheet .input-min.dmg2 {
+	font-family: ITCSymbolStd-Medium, sans-serif;
+	font-size: 11px;
+	background-color: #fcefc8; /* Color de fondo en casillas de texto */
+}
+
+/* Character sheet "Daño" background color fields */
+.sandbox.sheet .input-min.dmg3 {
+	font-family: ITCSymbolStd-Medium, sans-serif;
+	font-size: 11px;
+	background-color: #fcefc8; /* Color de fondo en casillas de texto */
+}
+
+/* Character sheet "Daño" background color fields */
+.sandbox.sheet .input-min.dmg4 {
+	font-family: ITCSymbolStd-Medium, sans-serif;
+	font-size: 11px;
+	background-color: #fcefc8; /* Color de fondo en casillas de texto */
+}
+
+/* Character sheet "Daño" background color fields */
+.sandbox.sheet .input-min.dmg5 {
+	font-family: ITCSymbolStd-Medium, sans-serif;
+	font-size: 11px;
+	background-color: #fcefc8; /* Color de fondo en casillas de texto */
+}
+
+/* Character sheet "Daño" background color fields */
+.sandbox.sheet .input-min.dmg6 {
+	font-family: ITCSymbolStd-Medium, sans-serif;
+	font-size: 11px;
+	background-color: #fcefc8; /* Color de fondo en casillas de texto */
+}
+
+/* Character sheet "Fortuna" background color fields */
+.sandbox.sheet .input-ahalf.fortuna {
+	font-family: ITCSymbolStd-Medium, sans-serif;
+	font-size: 11px;
+	background-color: #fcefc8; /* Color de fondo en casillas de texto */
+}
+
+/* Character sheet "Lealtad: Ley" numerical background color fields */
+.sandbox.sheet .input-med.ley_value {
+	font-family: ITCSymbolStd-Medium, sans-serif;
+	font-size: 11px;
+	background-color: #fcefc8; /* Color de fondo en casillas de texto */
+}
+
+/* Character sheet "Lealtad: Caos" numerical background color fields */
+.sandbox.sheet .input-med.caos_value {
+	font-family: ITCSymbolStd-Medium, sans-serif;
+	font-size: 11px;
+	background-color: #fcefc8; /* Color de fondo en casillas de texto */
+}
+
+/* Character sheet "Lealtad: Elemental" numerical background color fields */
+.sandbox.sheet .input-med.elemental_valor {
+	font-family: ITCSymbolStd-Medium, sans-serif;
+	font-size: 11px;
+	background-color: #fcefc8; /* Color de fondo en casillas de texto */
+}
+
+/* Character sheet "Lealtad: Ancestros" numerical background color fields */
+.sandbox.sheet .input-med.ancestros_valor {
+	font-family: ITCSymbolStd-Medium, sans-serif;
+	font-size: 11px;
+	background-color: #fcefc8; /* Color de fondo en casillas de texto */
+}
+
+/* Character sheet "PM_Max" background color fields */
+.sandbox.sheet .input-ahalf.pm_max_actual {
+	font-family: ITCSymbolStd-Medium, sans-serif;
+	font-size: 11px;
+	background-color: #fcefc8; /* Color de fondo en casillas de texto */
+}
+
+/* Character sheet fixed number background color fields */
+.sandbox.sheet [class*="input-min input-disabled"] {
+	font-family: ITCSymbolStd-Medium, sans-serif;
+	font-size: 11px;
+	background-color: #c9c9c9; /* Color de fondo en casillas fijas */
+}
+
+/* Character sheet "Rasgos personalidad" background color fields */
+.sandbox.sheet [class^="input-large"] {
+	font-family: ITCSymbolStd-Medium, sans-serif;
+	font-size: 11px;
+	background-color: #fcefc8; /* Color de fondo en casillas de texto */
+}
+
+/* ESTILOS DE LETRA Y FONDO EN TABLAS */
+
+/* Character sheet input text in tables (items) */
+/* You can delete this paragraph if you want it to be same as the input text above */
+.sandbox.sheet [class^="flexblock-"] td input {
+	font-family: ITCSymbolStd-Medium, sans-serif;
+	font-size: 11px;
+	background-color: #fcefaf; /* Color de fondo en casillas numéricas en tablas (items) */
+}
+
+/* Character sheet empty table cell colors */
+.sandbox.sheet tr.empty-row {
+	background-color: #c0c0c0;
+}
+
+/* Table cells fonts */
+.sandbox.sheet td {
+	font-family: ITCSymbolStd-Medium;
+	font-size: 11px;
+	background-color: #fcefc8; /* Color de fondo de tabla */
+}
+
+/* ESTILOS Y FUENTES DE ETIQUETAS */
+
+/* How cItems in tables behave when you move your mouse over!!! */
+.sandbox.sheet .linkable:hover {
+	color: #6f1311; /* Color de nombres de items (tablas) con puntero encima */
+	font-family:
+		ITCSymbolStd-Medium, sans-serif; /* Not a good idea to change fonts when passing the mouse but... */
+	font-size: 11px; /* Make it bigger or smaller when mouse over? */
+	font-weight: bold; /* try bold - bolder - normal - lighter */
+}
+
+/* Labels fonts and style */
+.sandbox.sheet [class*="label-"] {
+	font-family: ITCSymbolStd-Medium, sans-serif;
+	font-size: 11px;
+}
+
+/* Labels fonts and style Badges */
+.sandbox.sheet [class="badgelabel"] {
+	font-family: ITCSymbolStd-Medium, sans-serif;
+	font-size: 11px;
+}
+
+/* Labels fonts and style List */
+.sandbox.sheet [class*="input-free"] {
+	font-family: ITCSymbolStd-Medium, sans-serif;
+	font-size: 11px;
+	background-color: #fcefc8; /* Color de fondo en casillas de listas */
+}
+
+/* "Cuerpo" font and style PJ */
+.sandbox.sheet [class="centertext label-free cuerpo_label boldtext rollable"] {
+	font-family: ITCSymbolStd-Black, sans-serif;
+	font-size: 11px;
+}
+
+/* "Mente" font and style PJ */
+.sandbox.sheet [class="centertext label-free mente_label boldtext rollable"] {
+	font-family: ITCSymbolStd-Black, sans-serif;
+	font-size: 11px;
+}
+
+/* "Espíritu" font and style PJ */
+.sandbox.sheet
+[class="centertext label-free espiritu_label boldtext rollable"] {
+	font-family: ITCSymbolStd-Black, sans-serif;
+	font-size: 11px;
+}
+
+/* "Atractivo" font and style PJ */
+.sandbox.sheet [class="centertext label-free atractivo_label boldtext"] {
+	font-family: ITCSymbolStd-Black, sans-serif;
+	font-size: 11px;
+}
+
+/* "Fuerza" font and style PJ */
+.sandbox.sheet [class="centertext label-free fuerza_label boldtext rollable"] {
+	font-family: ITCSymbolStd-Black, sans-serif;
+	font-size: 11px;
+}
+
+/* "Tamaño" font and style PJ */
+.sandbox.sheet [class="centertext label-free tamaño_label boldtext"] {
+	font-family: ITCSymbolStd-Black, sans-serif;
+	font-size: 11px;
+}
+
+/* "Cuerpo" font and style PNJ */
+.sandbox.sheet [class=" label-free cuerpo_label boldtext rollable"] {
+	font-family: ITCSymbolStd-Black, sans-serif;
+	font-size: 11px;
+}
+
+/* "Mente" font and style PNJ */
+.sandbox.sheet [class=" label-free mente_label boldtext rollable"] {
+	font-family: ITCSymbolStd-Black, sans-serif;
+	font-size: 11px;
+}
+
+/* "Espíritu" font and style PNJ */
+.sandbox.sheet [class=" label-free espiritu_label boldtext rollable"] {
+	font-family: ITCSymbolStd-Black, sans-serif;
+	font-size: 11px;
+}
+
+/* "Atractivo" font and style PNJ */
+.sandbox.sheet [class=" label-free atractivo_label boldtext"] {
+	font-family: ITCSymbolStd-Black, sans-serif;
+	font-size: 11px;
+}
+
+/* "Fuerza" font and style PNJ */
+.sandbox.sheet [class=" label-free fuerza_label boldtext rollable"] {
+	font-family: ITCSymbolStd-Black, sans-serif;
+	font-size: 11px;
+}
+
+/* "Tamaño" font and style PNJ */
+.sandbox.sheet [class=" label-free tamaño_label boldtext"] {
+	font-family: ITCSymbolStd-Black, sans-serif;
+	font-size: 11px;
+}
+
+/* "Total Gastado (Destino)" font and style */
+.sandbox.sheet [class=" label-free destino_tg_label"] {
+	font-family: ITCSymbolStd-Bold, sans-serif;
+	font-size: 11px;
+}
+
+/* "Armadura Objetos Armas Hechizos (Tablas)" font and style */
+.sandbox.sheet [class="label-large tableheader nameheader"] {
+	font-family: ITCSymbolStd-Black, sans-serif;
+	font-size: 11px;
+}
+
+/* "Tipo Carga (Tabla)" font and style */
+.sandbox.sheet [class="label-free tableheader propheader"] {
+	font-family: ITCSymbolStd-Bold, sans-serif;
+	font-size: 11px;
+}
+
+/* "Num (Tabla)" font and style */
+.sandbox.sheet [class="input-min tableheader"] {
+	font-family: ITCSymbolStd-Bold, sans-serif;
+	font-size: 11px;
+	background-color: #006e91;
+}
+
+/* "TOTAL (Tabla Armadura vacía)" font and style */
+.sandbox.sheet [class=" boldtext"] {
+	font-family: ITCSymbolStd-Bold, sans-serif;
+	font-size: 11px;
+}
+
+/* "TOTAL Num (Tabla Armadura vacía)" font and style */
+.sandbox.sheet [class=" centertext"] {
+	font-family: ITCSymbolStd-Bold, sans-serif;
+	font-size: 11px;
+}
+
+/* "TOTAL (Tabla Armadura con cItems)" font and style */
+.sandbox.sheet
+[class="input-free  tablenamecell tabla_armadura_namecell  boldtext"] {
+	font-family: ITCSymbolStd-Bold, sans-serif;
+	font-size: 11px;
+}
+
+/* "TOTAL Num (Tabla Armadura con cItems)" font and style */
+.sandbox.sheet [class="centertext prop_protec  centertext"] {
+	font-family: ITCSymbolStd-Bold, sans-serif;
+	font-size: 11px;
+}
+
+/* "TOTAL (Tabla Equipo)" font and style */
+.sandbox.sheet
+[class="input-free  tablenamecell tabla_equipo_namecell  boldtext"] {
+	font-family: ITCSymbolStd-Bold, sans-serif;
+	font-size: 11px;
+}
+
+/* "TOTAL Num (Tabla Equipo con cItems)" font and style */
+.sandbox.sheet [class="centertext prop_carga_total  centertext"] {
+	font-family: ITCSymbolStd-Bold, sans-serif;
+	font-size: 11px;
+}
+
+/* "TOTAL (Tabla Ventajas y Defectos)" font and style */
+.sandbox.sheet
+[class="input-free  tablenamecell tabla_ven_def_namecell  boldtext"] {
+	font-family: ITCSymbolStd-Bold, sans-serif;
+	font-size: 11px;
+}
+
+/* "TOTAL Num (Tabla Ventajas y Defectos con cItems)" font and style */
+.sandbox.sheet [class="centertext prop_costepp_total  label-free centertext"] {
+	font-family: ITCSymbolStd-Bold, sans-serif;
+	font-size: 11px;
+}
+
+/* "Puntos de Vida" font and style PJ */
+.sandbox.sheet [class=" label-med pv_label boldtext"] {
+	font-family: ITCSymbolStd-Black, sans-serif;
+	font-size: 11px;
+}
+
+/* "Puntos de Vida" font and style PNJ */
+.sandbox.sheet [class="righttext label-med pv_label boldtext"] {
+	font-family: ITCSymbolStd-Black, sans-serif;
+	font-size: 11px;
+}
+
+/* "Heridas" font and style */
+.sandbox.sheet [class="centertext label-small heridas_label boldtext"] {
+	font-family: ITCSymbolStd-Bold, sans-serif;
+	font-size: 11px;
+}
+
+/* "Heridas" font and style PNJ */
+.sandbox.sheet [class="righttext label-small heridas_label boldtext"] {
+	font-family: ITCSymbolStd-Bold, sans-serif;
+	font-size: 11px;
+}
+
+/* "PD Heridas" font and style */
+.sandbox.sheet [class="centertext label-small pd_label boldtext"] {
+	font-family: ITCSymbolStd-Bold, sans-serif;
+	font-size: 11px;
+}
+
+/* "PD Heridas" font and style PNJ */
+.sandbox.sheet [class="righttext label-small pd_label boldtext"] {
+	font-family: ITCSymbolStd-Bold, sans-serif;
+	font-size: 11px;
+}
+
+/* "Fortuna" font and style */
+.sandbox.sheet [class="righttext label-free fortuna_label boldtext rollable"] {
+	font-family: ITCSymbolStd-Black, sans-serif;
+	font-size: 11px;
+}
+
+/* "Mod.D" font and style */
+.sandbox.sheet [class=" label-med mod_dano_label boldtext"] {
+	font-family: ITCSymbolStd-Black, sans-serif;
+	font-size: 11px;
+}
+
+/* "Daño 1M" font and style */
+.sandbox.sheet [class=" label-small dano_1m_label boldtext"] {
+	font-family: ITCSymbolStd-Bold, sans-serif;
+	font-size: 11px;
+}
+
+/* "Daño 2M" font and style */
+.sandbox.sheet [class=" label-small dano_2m_label boldtext"] {
+	font-family: ITCSymbolStd-Bold, sans-serif;
+	font-size: 11px;
+}
+
+/* "Ley (Lealtad)" font and style */
+.sandbox.sheet [class="centertext label-free ley_label smalltext rollable"] {
+	font-family: ITCSymbolStd-Medium, sans-serif;
+	font-size: 16px;
+}
+
+/* "Caos (Lealtad)" font and style */
+.sandbox.sheet [class="centertext label-free caos_label smalltext rollable"] {
+	font-family: ITCSymbolStd-Medium, sans-serif;
+	font-size: 16px;
+}
+
+/* "Elemental (Lealtad)" font and style */
+.sandbox.sheet
+[class="centertext label-free elemental_label smalltext rollable"] {
+	font-family: ITCSymbolStd-Medium, sans-serif;
+	font-size: 16px;
+}
+
+/* "Ancestros (Lealtad)" font and style */
+.sandbox.sheet
+[class="centertext label-free ancestros_label smalltext rollable"] {
+	font-family: ITCSymbolStd-Medium, sans-serif;
+	font-size: 16px;
+}
+
+/* "Pactos" font and style */
+.sandbox.sheet [class="righttext label-small pactos_label boldtext"] {
+	font-family: ITCSymbolStd-Bold, sans-serif;
+	font-size: 11px;
+}
+
+/* "Bendiciones" font and style */
+.sandbox.sheet [class="righttext label-small bendiciones_label boldtext"] {
+	font-family: ITCSymbolStd-Bold, sans-serif;
+	font-size: 11px;
+}
+
+/* "Estorbo" font and style */
+.sandbox.sheet [class="righttext label-medlarge est_label boldtext"] {
+	font-family: ITCSymbolStd-Bold, sans-serif;
+	font-size: 11px;
+}
+
+/* "Coste total (Ventajas/Desventajas)" font and style */
+.sandbox.sheet [class=" label-medlarge vent_def_total_label boldtext"] {
+	font-family: ITCSymbolStd-Bold, sans-serif;
+	font-size: 11px;
+}
+
+/* "PM Max" font and style */
+.sandbox.sheet [class=" label-small pm_max_actual_label"] {
+	font-family: ITCSymbolStd-Bold, sans-serif;
+	font-size: 11px;
+}
+
+/* "Hechizos" font and style */
+.sandbox.sheet [class="centertext label-free hechizos_prop_label boldtext"] {
+	font-family: ITCSymbolStd-Black, sans-serif;
+	font-size: 14px;
+}
+
+/* "Título Hechizos PNJ" font and style */
+.sandbox.sheet [class="centertext label-free hechizos_title_label boldtext"] {
+	font-family: ITCSymbolStd-Black, sans-serif;
+	font-size: 14px;
+}
+/* Variables */
+:root {
+	--tq-highlight-color: #006e91;
+	--sb-color-shadow-primary: var(--tq-highlight-color);
+	--sb-text-shadow-primary: 0 0 8px var(--sb-color-shadow-primary);
+	--sb-filter-drop-shadow-primary: drop-shadow(
+		0 0 4px var(--sb-color-shadow-primary)
+	);
+	--sb-box-shadow-inputs: 0 0 5px var(--sb-color-shadow-primary);
+}
+
+/* Overwrite scroll-bar style */
+:root {
+	scrollbar-width: thin;
+	scrollbar-color: var(--tq-highlight-color) #06232d;
+}
+
+/* Minimum character sheet size */
+.system-sandbox .sandbox.sheet.actor {
+	min-width: 800px;
+	min-height: 750px;
+}
+
+/* Some margin for the character name box */
+.system-sandbox .sandbox.sheet.actor .charname {
+	margin-top: 2px;
+	padding: 0;
+}
+
+.system-sandbox .sandbox.sheet.actor .charname input {
+	padding: 5px;
+}
+
+/* Avoid having 2 scroll bars */
+.sandbox.sheet .tab.scrollable {
+	overflow-y: visible;
+	margin-bottom: 10px;
+}
+
+/* Justify the skill list */
+.sandbox.sheet.actor #caracteristicas_tabrow3 {
+	input[type="text"].input-min {
+		width: 2.5em;
+		min-width: 2.5em;
+	}
+	.flexblock-left {
+		justify-content: space-between;
+
+		.radio-input {
+			min-width: 2em;
+			width: 2em;
+			padding: 0;
+		}
+	}
+}
+
+/* Overwite link hover shadow  */
+.sandbox a:hover {
+	text-shadow: 0 0 8px var(--tq-highlight-color);
+}
+
+/* Overwite .app box shadow  */
+.system-sandbox .app {
+	box-shadow: 0 0 20px var(--tq-highlight-color);
+}
+
+/* Active tab button style */
+.sandbox.sheet .tabs .item.active {
+	text-shadow: none;
+	text-decoration: none;
+	/*  border-bottom: 5px solid var(--tq-highlight-color);
+   */ border: 2px solid var(--tq-highlight-color);
+	border-radius: 5px;
+	box-shadow: inset 0 0 15px var(--tq-highlight-color);
+	transition: all 0.2s ease-out;
+}
+
+/* Some extra margin for the logo */
+.sandbox.sheet .flexblock-left.charsetup {
+	margin-top: 5px;
+}
+
+/* Remove spaces on the panel headers */
+.system-sandbox .sandbox.sheet .multi-1-2,
+.system-sandbox .sandbox.sheet .multi-1-3 {
+	padding: 0px 0px 4px 0px;
+}
+
+
+/* Características Bloque superior */
+.system-sandbox .sandbox.sheet #caracteristicas_tabrow0 {
+	& > .multi-1-3-col {
+		width: 33%;
+	}
+
+	max-width: 900px;
+	#multipanel_pvmultirow7,
+	.multi-3-10.panel_heridas_container,
+	.multi-1-3.panel_pv_container {
+		width: 100%;
+	}
+}
+
+/* Bloque del listado de habilidades */
+.system-sandbox .sandbox.sheet #caracteristicas_tabrow3 {
+	max-width: 900px;
+	.multi-1-2-col {
+		width: 50%;
+		& > .new-multiblock {
+			width: 100%;
+		}
+	}
+}

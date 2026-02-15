@@ -1,0 +1,26 @@
+2025/09/28-13:03:42.257947 7f186d7bc700 Recovering log #268
+2025/09/28-13:03:42.265189 7f186d7bc700 Delete type=0 #268
+2025/09/28-13:03:42.265249 7f186d7bc700 Delete type=3 #266
+2025/09/28-14:09:36.833022 7f186c96a700 Level-0 table #273: started
+2025/09/28-14:09:36.835656 7f186c96a700 Level-0 table #273: 892 bytes OK
+2025/09/28-14:09:36.837841 7f186c96a700 Delete type=0 #271
+2025/09/28-14:09:36.841373 7f186c96a700 Manual compaction at level-0 from '!messages!aw73Nr0Cj4yiLsCi' @ 72057594037927935 : 1 .. '!messages!aw73Nr0Cj4yiLsCi' @ 0 : 0; will stop at '!messages!aw73Nr0Cj4yiLsCi' @ 27 : 1
+2025/09/28-14:09:36.841389 7f186c96a700 Compacting 3@0 + 1@1 files
+2025/09/28-14:09:36.844667 7f186c96a700 Generated table #274@0: 9 keys, 1083 bytes
+2025/09/28-14:09:36.844699 7f186c96a700 Compacted 3@0 + 1@1 files => 1083 bytes
+2025/09/28-14:09:36.846764 7f186c96a700 compacted to: files[ 0 2 1 0 0 0 0 ]
+2025/09/28-14:09:36.846867 7f186c96a700 Delete type=2 #69
+2025/09/28-14:09:36.847572 7f186c96a700 Delete type=2 #29
+2025/09/28-14:09:36.849088 7f186c96a700 Delete type=2 #273
+2025/09/28-14:09:36.849235 7f186c96a700 Delete type=2 #193
+2025/09/28-14:09:36.859331 7f186c96a700 Manual compaction at level-0 from '!messages!aw73Nr0Cj4yiLsCi' @ 27 : 1 .. '!messages!aw73Nr0Cj4yiLsCi' @ 0 : 0; will stop at (end)
+2025/09/28-14:09:36.863435 7f186c96a700 Expanding@1 1+1 (1083+3218 bytes) to 2+1 (2427+3218 bytes)
+2025/09/28-14:09:36.871056 7f186c96a700 Manual compaction at level-1 from '!messages!aw73Nr0Cj4yiLsCi' @ 72057594037927935 : 1 .. '!messages!aw73Nr0Cj4yiLsCi' @ 0 : 0; will stop at '!messages!i35rQR5ZMyt9jWbx' @ 20 : 0
+2025/09/28-14:09:36.871097 7f186c96a700 Compacting 2@1 + 1@2 files
+2025/09/28-14:09:36.873679 7f186c96a700 Generated table #275@1: 1 keys, 892 bytes
+2025/09/28-14:09:36.873706 7f186c96a700 Compacted 2@1 + 1@2 files => 892 bytes
+2025/09/28-14:09:36.875891 7f186c96a700 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/09/28-14:09:36.876034 7f186c96a700 Delete type=2 #5
+2025/09/28-14:09:36.876123 7f186c96a700 Delete type=2 #245
+2025/09/28-14:09:36.876299 7f186c96a700 Delete type=2 #274
+2025/09/28-14:09:36.994293 7f186c96a700 Manual compaction at level-1 from '!messages!i35rQR5ZMyt9jWbx' @ 20 : 0 .. '!messages!aw73Nr0Cj4yiLsCi' @ 0 : 0; will stop at (end)
