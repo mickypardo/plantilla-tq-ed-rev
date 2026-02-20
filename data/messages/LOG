@@ -1,7 +1,22 @@
-2026/02/15-01:12:58.154 4378 Recovering log #462
-2026/02/15-01:12:58.224 4378 Delete type=0 #462
-2026/02/15-01:12:58.224 4378 Delete type=3 #460
-2026/02/15-01:17:22.315 46d4 Level-0 table #467: started
-2026/02/15-01:17:22.315 46d4 Level-0 table #467: 0 bytes OK
-2026/02/15-01:17:22.340 46d4 Delete type=0 #465
-2026/02/15-01:17:22.340 46d4 Manual compaction at level-0 from 'undefined' @ 72057594037927935 : 1 .. 'undefined' @ 0 : 0; will stop at (end)
+2026/02/15-17:47:37.343 3064 Recovering log #466
+2026/02/15-17:47:37.417 3064 Delete type=0 #466
+2026/02/15-17:47:37.418 3064 Delete type=3 #464
+2026/02/20-17:36:08.756 46a4 Level-0 table #471: started
+2026/02/20-17:36:10.228 46a4 Level-0 table #471: 1544 bytes OK
+2026/02/20-17:36:12.406 46a4 Delete type=0 #469
+2026/02/20-17:36:17.946 46a4 Manual compaction at level-0 from '!messages!7XMELiwHtNf3NpwH' @ 72057594037927935 : 1 .. '!messages!gco27IFCwbgOsHo5' @ 0 : 0; will stop at '!messages!gco27IFCwbgOsHo5' @ 1094 : 1
+2026/02/20-17:36:17.946 46a4 Compacting 1@0 + 1@1 files
+2026/02/20-17:36:19.554 46a4 Generated table #472@0: 48 keys, 2731 bytes
+2026/02/20-17:36:19.554 46a4 Compacted 1@0 + 1@1 files => 2731 bytes
+2026/02/20-17:36:20.453 46a4 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/02/20-17:36:20.999 46a4 Delete type=2 #459
+2026/02/20-17:36:21.302 46a4 Delete type=2 #471
+2026/02/20-17:36:21.302 46a4 Manual compaction at level-0 from '!messages!gco27IFCwbgOsHo5' @ 1094 : 1 .. '!messages!gco27IFCwbgOsHo5' @ 0 : 0; will stop at (end)
+2026/02/20-17:36:23.801 46a4 Manual compaction at level-1 from '!messages!7XMELiwHtNf3NpwH' @ 72057594037927935 : 1 .. '!messages!gco27IFCwbgOsHo5' @ 0 : 0; will stop at '!messages!zgRyC0jNMb2RZLEh' @ 1092 : 0
+2026/02/20-17:36:23.801 46a4 Compacting 1@1 + 1@2 files
+2026/02/20-17:36:24.644 46a4 Generated table #473@1: 2 keys, 1544 bytes
+2026/02/20-17:36:24.644 46a4 Compacted 1@1 + 1@2 files => 1544 bytes
+2026/02/20-17:36:25.427 46a4 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/02/20-17:36:25.427 46a4 Delete type=2 #427
+2026/02/20-17:36:25.427 46a4 Delete type=2 #472
+2026/02/20-17:36:33.916 46a4 Manual compaction at level-1 from '!messages!zgRyC0jNMb2RZLEh' @ 1092 : 0 .. '!messages!gco27IFCwbgOsHo5' @ 0 : 0; will stop at (end)

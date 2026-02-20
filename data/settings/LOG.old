@@ -1,15 +1,15 @@
-2026/02/15-00:39:38.381 530c Recovering log #545
-2026/02/15-00:39:38.462 530c Delete type=0 #545
-2026/02/15-00:39:38.462 530c Delete type=3 #543
-2026/02/15-01:02:35.462 46d4 Level-0 table #551: started
-2026/02/15-01:02:35.547 46d4 Level-0 table #551: 7927 bytes OK
-2026/02/15-01:02:35.596 46d4 Delete type=0 #549
-2026/02/15-01:02:35.696 46d4 Manual compaction at level-0 from '!settings!0YoVb8zHtUOflhAJ' @ 72057594037927935 : 1 .. '!settings!zRYqmAydNaIecgHY' @ 0 : 0; will stop at (end)
-2026/02/15-01:02:35.721 46d4 Manual compaction at level-1 from '!settings!0YoVb8zHtUOflhAJ' @ 72057594037927935 : 1 .. '!settings!zRYqmAydNaIecgHY' @ 0 : 0; will stop at '!settings!QZfXchMWE5IVHKne' @ 345 : 1
-2026/02/15-01:02:35.721 46d4 Compacting 1@1 + 1@2 files
-2026/02/15-01:02:35.814 46d4 Generated table #552@1: 42 keys, 17511 bytes
-2026/02/15-01:02:35.814 46d4 Compacted 1@1 + 1@2 files => 17511 bytes
-2026/02/15-01:02:35.862 46d4 compacted to: files[ 0 0 1 0 0 0 0 ]
-2026/02/15-01:02:35.862 46d4 Delete type=2 #547
-2026/02/15-01:02:35.863 46d4 Delete type=2 #551
-2026/02/15-01:02:35.863 46d4 Manual compaction at level-1 from '!settings!QZfXchMWE5IVHKne' @ 345 : 1 .. '!settings!zRYqmAydNaIecgHY' @ 0 : 0; will stop at (end)
+2026/02/15-01:12:59.010 530c Recovering log #550
+2026/02/15-01:12:59.058 530c Delete type=0 #550
+2026/02/15-01:12:59.058 530c Delete type=3 #548
+2026/02/15-01:17:22.724 46d4 Level-0 table #556: started
+2026/02/15-01:17:22.757 46d4 Level-0 table #556: 2202 bytes OK
+2026/02/15-01:17:22.782 46d4 Delete type=0 #554
+2026/02/15-01:17:22.808 46d4 Manual compaction at level-0 from '!settings!0YoVb8zHtUOflhAJ' @ 72057594037927935 : 1 .. '!settings!zRYqmAydNaIecgHY' @ 0 : 0; will stop at (end)
+2026/02/15-01:17:22.866 46d4 Manual compaction at level-1 from '!settings!0YoVb8zHtUOflhAJ' @ 72057594037927935 : 1 .. '!settings!zRYqmAydNaIecgHY' @ 0 : 0; will stop at '!settings!QZfXchMWE5IVHKne' @ 368 : 1
+2026/02/15-01:17:22.866 46d4 Compacting 1@1 + 1@2 files
+2026/02/15-01:17:22.941 46d4 Generated table #557@1: 42 keys, 17511 bytes
+2026/02/15-01:17:22.941 46d4 Compacted 1@1 + 1@2 files => 17511 bytes
+2026/02/15-01:17:22.965 46d4 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/02/15-01:17:22.965 46d4 Delete type=2 #552
+2026/02/15-01:17:22.965 46d4 Delete type=2 #556
+2026/02/15-01:17:23.007 46d4 Manual compaction at level-1 from '!settings!QZfXchMWE5IVHKne' @ 368 : 1 .. '!settings!zRYqmAydNaIecgHY' @ 0 : 0; will stop at (end)
